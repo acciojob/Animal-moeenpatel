@@ -1,18 +1,26 @@
 /*  your css code here. If applicable */
-body{
-	background-color:gray;
+.container{
+	background-color:grey;
+	width:520px;
+	height:430px;
 }
-#photo-heading{
-	font-weight:bold;
-	font-size:50px;
-	color:white;
-	text-align:center;
-	
+.main{
+	background-color:grey;
+	width:510px;
+	height:420px;
+	justify-content:space-between;
+	boder-radius:20%;
 }
-
 #animal-photos{
-	display:grid;
-	grid-template-columns:repeat(3, 1fr);
-	margin-inline:auto;
-	row-gap:10px;
+	color:white;
+	align-items:centre;
+	text-align:center;
+	text-font:sans-serif;
+}
+.img{
+	padding:3px;
+	margin:5px;
+	width:150px;
+	height:100px;
+	boder-radius:20px;
 }
